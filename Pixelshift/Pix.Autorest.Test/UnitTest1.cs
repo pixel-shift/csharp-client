@@ -1,17 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using Amazon;
-using Amazon.S3;
-using Amazon.S3.Model;
-using Microsoft.Rest;
-using Newtonsoft.Json.Linq;
 using Pixelshift.Autorest;
 using Pixelshift.Autorest.Models;
 using Pixelshift.Oauth2;
@@ -51,32 +41,32 @@ namespace Pix.Autorest.Test
                 new TransformGraph(new List<TransformUnit>
                 {
                     new ImageFormatJpeg(50),
-                    new StorageSinkS3($"outputKey1024.jpg",
+                    new StorageSinkS3("outputKey1024.jpg",
                         "outputBucket", true)
                 }),
                 new TransformGraph(new List<TransformUnit>
                 {
                     new ImageResizeMax(128, 128),
                     new ImageFormatJpeg(50),
-                    new StorageSinkS3($"outputKey128.jpg",
+                    new StorageSinkS3("outputKey128.jpg",
                         "outputBucket", true)
                 }),
                 new TransformGraph(new List<TransformUnit>
                 {
                     new ImageResizeMax(64, 64),
                     new ImageFormatJpeg(50),
-                    new StorageSinkS3($"outputKey64.jpg",
+                    new StorageSinkS3("outputKey64.jpg",
                         "outputBucket", true)
                 })
             });
             var batch = new Batch(new[] {graph});
             BatchStartReportResponse batchStartReportResponse = await api.ProcessImageBatchAsync(batch);
             Assert.True(batchStartReportResponse.Success);
-            BatchReportResponse batchReportResponse;
 
             if (batchStartReportResponse.Id != null)
             {
                 var idValue = batchStartReportResponse.Id.Value;
+                BatchReportResponse batchReportResponse;
                 while ((batchReportResponse = await api.BatchInfoAsync(idValue)).Status ==
                        BatchStatus.Pending)
                 {
