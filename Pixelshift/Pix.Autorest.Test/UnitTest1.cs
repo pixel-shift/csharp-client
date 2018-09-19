@@ -20,7 +20,7 @@ namespace Pix.Autorest.Test
         }
 
         [Fact]
-        public async Task amamzon_test()
+        public async Task amazon_test()
         {
             string
                 clientId =
