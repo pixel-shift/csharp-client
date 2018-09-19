@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixelshift.Autorest", "Pixelshift.Autorest\Pixelshift.Autorest.csproj", "{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pix.Autorest.Test", "Pix.Autorest.Test\Pix.Autorest.Test.csproj", "{DDCD071E-B22C-41C6-B186-E500F150C9FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixelshift.Oauth2", "Pixelshift.Oauth2\Pixelshift.Oauth2.csproj", "{CB3127E2-C56D-4090-8D84-CCB50653EADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Debug|x64.Build.0 = Debug|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Debug|x86.Build.0 = Debug|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Release|x64.Build.0 = Release|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5CE7BB1-DDD3-4BBD-99DF-E9C04581244D}.Release|x86.Build.0 = Release|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Debug|x64.Build.0 = Debug|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Debug|x86.Build.0 = Debug|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Release|x64.ActiveCfg = Release|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Release|x64.Build.0 = Release|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{DDCD071E-B22C-41C6-B186-E500F150C9FE}.Release|x86.Build.0 = Release|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Debug|x64.Build.0 = Debug|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Debug|x86.Build.0 = Debug|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Release|x64.ActiveCfg = Release|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Release|x64.Build.0 = Release|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Release|x86.ActiveCfg = Release|Any CPU
+		{CB3127E2-C56D-4090-8D84-CCB50653EADB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
